@@ -1,0 +1,84 @@
+{
+  "scope": "Public roads and places only; no operational orders or vehicles",
+  "provider": "OSRM / OpenStreetMap / Photon",
+  "matrix_fetched_at": "2026-10-11T02:46:08.252233+00:00",
+  "points": [
+    {
+      "lat": 30.252,
+      "lon": 120.158
+    },
+    {
+      "lat": 30.259,
+      "lon": 120.164
+    },
+    {
+      "lat": 30.253,
+      "lon": 120.173
+    }
+  ],
+  "distances_m": [
+    [
+      0,
+      1390,
+      1714
+    ],
+    [
+      1631,
+      0,
+      1629
+    ],
+    [
+      1873,
+      1476,
+      0
+    ]
+  ],
+  "durations_seconds": [
+    [
+      0,
+      162,
+      145
+    ],
+    [
+      173,
+      0,
+      172
+    ],
+    [
+      160,
+      146,
+      0
+    ]
+  ],
+  "segments": [
+    {
+      "from": 0,
+      "to": 1,
+      "matrix_distance_m": 1390,
+      "route_distance_m": 1390,
+      "coordinate_count": 36
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "matrix_distance_m": 1629,
+      "route_distance_m": 1629,
+      "coordinate_count": 36
+    },
+    {
+      "from": 2,
+      "to": 0,
+      "matrix_distance_m": 1873,
+      "route_distance_m": 1868,
+      "coordinate_count": 34
+    }
+  ],
+  "public_place_names": [
+    "西湖",
+    "西湖文化广场",
+    "西湖文化广场",
+    "杭州西湖风景名胜区",
+    "杭州西湖风景名胜区",
+    "速8酒店杭州西湖景区平海路店（内宾）"
+  ]
+}

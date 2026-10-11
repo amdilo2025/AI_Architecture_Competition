@@ -1,0 +1,14 @@
+{
+  "city": "杭州",
+  "start_time": "2026-10-12T08:00:00+08:00",
+  "horizon_seconds": 28800,
+  "depot": {"name": "杭州公开道路点 A（体验配送站）", "address": "公开道路坐标，非实际配送仓库", "lat": 30.252, "lon": 120.158, "source": "user_coordinates"},
+  "orders": [
+    {"id": "HZ001", "location": {"name": "杭州公开道路点 B（体验收货点）", "address": "公开道路坐标，非真实客户地址", "lat": 30.259, "lon": 120.164, "source": "user_coordinates"}, "weight_kg": 12.5, "window_start": 0, "window_end": 14400, "service_seconds": 120},
+    {"id": "HZ002", "location": {"name": "杭州公开道路点 C（体验收货点）", "address": "公开道路坐标，非真实客户地址", "lat": 30.253, "lon": 120.173, "source": "user_coordinates"}, "weight_kg": 18, "window_start": 0, "window_end": 14400, "service_seconds": 120}
+  ],
+  "vehicles": [
+    {"id": "V01", "name": "体验配送车 1", "capacity_kg": 40, "range_km": 30, "fixed_cost_cents": 3000, "cost_per_km_cents": 120, "available": true},
+    {"id": "V02", "name": "体验配送车 2", "capacity_kg": 40, "range_km": 30, "fixed_cost_cents": 3000, "cost_per_km_cents": 120, "available": true}
+  ]
+}

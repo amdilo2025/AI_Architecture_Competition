@@ -1,0 +1,24 @@
+/* Generated from DESIGN.md. */
+:root {
+  --color-primary: #20252b;
+  --color-background: #ffffff;
+  --color-sidebar: #f7f8fa;
+  --color-surface: #f1f3f5;
+  --color-border: #dce1e7;
+  --color-text: #20252b;
+  --color-muted: #606b78;
+  --color-success: #167556;
+  --color-warning: #93600a;
+  --color-danger: #b42336;
+  --font-body-family: Segoe UI, Microsoft YaHei, system-ui, sans-serif;
+  --font-body-size: 14px;
+  --font-body-leading: 1.6;
+  --font-utility-family: Consolas, SFMono-Regular, monospace;
+  --font-utility-size: 12px;
+  --radius-control: 8px;
+  --radius-panel: 14px;
+  --radius-composer: 24px;
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-large: 24px;
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "Real public roads; illustrative user-input business parameters",
+  "metrics": {
+    "total_orders": 2,
+    "completed_orders": 2,
+    "completion_rate": 1.0,
+    "total_distance_m": 4821,
+    "vehicles_used": 1,
+    "cost_cents": 3579,
+    "finish_seconds": 704,
+    "solve_seconds": 2.0094
+  },
+  "routes": [
+    {
+      "vehicle_id": "V01",
+      "order_ids": [
+        "HZ002",
+        "HZ001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "scope": "User-entered orders and vehicles; real OSM/OSRM roads and Photon public places; no real vehicle dispatch",
+  "checks": [
+    {"command":"python -m pytest tests -q --basetemp .tmp/pytest-iteration3 --junitxml artifacts/backend-tests.xml","exit_code":0,"passed":26,"warnings":"Third-party Starlette TestClient and OR-Tools SWIG deprecation warnings"},
+    {"command":"npm --prefix frontend run build","exit_code":0,"includes":"TypeScript strict check and Vite production bundle"},
+    {"command":"npm --prefix frontend run test:e2e","exit_code":0,"passed":4,"covers":"Registration and manual input, national map, data guide, pointer and keyboard panel resizing, width persistence and reset, real-road vehicle movement, preview pause/seek/completion/replay, infeasible plan explanations and disabled playback, AI fault proposals, narrow viewport and axe accessibility"},
+    {"command":"npm --prefix frontend run test:a11y -- --reporter=list","exit_code":0,"passed":1},
+    {"command":"npm --prefix frontend run format:check","exit_code":0},
+    {"command":"designmd lint DESIGN.md","exit_code":0,"errors":0,"warnings":0},
+    {"command":"audit_project.py . --mode strict --output artifacts/premium-audit.json","exit_code":0,"errors":0,"warnings":0},
+    {"command":"python scripts/verify_real_services.py","exit_code":0,"checks":"Directional road matrix, >2-point road geometry, actual public place results"}
+  ],
+  "runtime": {"url":"http://127.0.0.1:8080","api_docs":"http://127.0.0.1:8080/docs","entrypoint":"python run.py"},
+  "browser": {"desktop":"1440x1000 tested; national map and field guide inspected interactively at 1280x720; infeasible saved plan explains capacity and round-trip range","mobile":"390x844 tested","test_isolation":"Playwright starts a fresh server on port 8081 and a unique temporary database, copying only public road cache","automation_tile_policy":"Headless browser tests intercept public OSM tile requests; road APIs are real and cached"},
+  "evidence": ["backend-tests.xml","browser-tests.json","premium-audit.json","real-services.json","example-validation.json","workbench-v2.png","login-v2.png","mobile-v2.png"]
+}
