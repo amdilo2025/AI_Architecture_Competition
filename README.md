@@ -36,7 +36,7 @@
 
 ### 评委首次复现（Windows / PowerShell）
 
-1. 克隆已获得访问权限的私有仓库，或将仓库中的项目压缩包解压到本机。
+1. 克隆已获得访问权限的私有仓库，或在 [Release v2.0.0](https://github.com/amdilo2025/AI_Architecture_Competition/releases/tag/v2.0.0) 的 Assets 下载“路序-城市配送调度-完整项目.zip”并解压到本机。
 
    ```powershell
    git clone https://github.com/amdilo2025/AI_Architecture_Competition.git
@@ -203,7 +203,7 @@ npm.cmd --prefix frontend run test:a11y
 
 ## 参赛提交
 
-参赛仓库：[amdilo2025/AI_Architecture_Competition](https://github.com/amdilo2025/AI_Architecture_Competition)。仓库已确认为私有，官方账号 `DsChHack` 的仓库写入权限已核验（2026-10-11）。源码、运行说明与支撑材料在仓库内，另附“路序-城市配送调度-完整项目.zip”，包含预构建前端。
+参赛仓库：[amdilo2025/AI_Architecture_Competition](https://github.com/amdilo2025/AI_Architecture_Competition)。仓库已确认为私有，官方账号 `DsChHack` 的仓库写入权限已核验（2026-10-11）。源码、运行说明与支撑材料位于 `main` 分支；包含预构建前端的“路序-城市配送调度-完整项目.zip”通过 [Release v2.0.0](https://github.com/amdilo2025/AI_Architecture_Competition/releases/tag/v2.0.0) 的 Assets 下载，不放在 `main` 文件列表中。Release 下载需要仓库访问权限。
 
 参赛者仍需填写团队和成员信息，并通过赛事指定渠道提交上述仓库链接；上传到 GitHub 不等于完成赛事渠道提交。当前未核验正式提交回执。
 

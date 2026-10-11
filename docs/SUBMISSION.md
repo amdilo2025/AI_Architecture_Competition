@@ -6,7 +6,7 @@
 
 | 要求 | 当前本地情况 | 提交前动作 |
 |---|---|---|
-| 项目代码 | Python 后端、React 前端、运行文档、验收记录和完整 ZIP 已上传到私有仓库 `main` | 正式提交前复查仓库材料。 |
+| 项目代码 | Python 后端、React 前端、运行文档及验收记录位于私有仓库 `main`；完整 ZIP 位于 [Release v2.0.0](https://github.com/amdilo2025/AI_Architecture_Competition/releases/tag/v2.0.0) 的 Assets | 正式提交前复查仓库和 Release 的访问权限及材料。 |
 | README 与运行说明 | 已补充场景、方案、AI 分工、复现、数据、依赖、验证及限制 | 在另一目录或电脑按文档复现，检查仓库文件完整。 |
 | 团队信息 | README 中仍有待填写字段 | 填写个人或团队署名、成员分工和背景；简历可选。 |
 | GitHub 私有仓库链接 | 已确认为 [amdilo2025/AI_Architecture_Competition](https://github.com/amdilo2025/AI_Architecture_Competition)，私有仓库 | 材料维护在 `main` 分支；正式提交前复查文件完整性和仓库可见性。 |
@@ -33,11 +33,11 @@
 
 ## 打包与仓库文件
 
-包含源码、依赖锁文件、`setup.ps1`、`start.ps1`、`run.py`、README、API、演示及接入文档、测试与验收记录。ZIP 包额外带预构建前端。
+`main` 包含源码、依赖锁文件、`setup.ps1`、`start.ps1`、`run.py`、README、API、演示及接入文档、测试与验收记录。完整 ZIP 包额外带预构建前端，作为 [Release v2.0.0](https://github.com/amdilo2025/AI_Architecture_Competition/releases/tag/v2.0.0) 附件提供。
 
 默认排除 `.venv/`、`node_modules/`、`.env`、运行数据库、缓存、私人订单和账号数据。保留 `.env.example` 供配置说明。Git 默认忽略 `frontend/dist/`；从源码安装时运行 `setup.ps1` 会重新构建。
 
-如果不把完整 ZIP 放入仓库，源码及文档仍应在仓库内完整可访问。提交前核对 README 中所有相对链接，避免上传文档却遗漏其引用的材料。
+完整 ZIP 不在 `main` 文件列表中，`.gitignore` 排除 `*.zip`，以后重新打包也不会自动加入源码提交。源码及文档在仓库内完整可访问；Release 下载同样需要私有仓库访问权限。提交前核对 README 中所有相对链接，避免上传文档却遗漏其引用的材料。
 
 ## 正式提交确认
 
