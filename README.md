@@ -249,11 +249,7 @@ npm.cmd --prefix frontend run test:a11y
 
 参赛仓库：[amdilo2025/AI_Architecture_Competition](https://github.com/amdilo2025/AI_Architecture_Competition)。仓库已确认为私有，官方账号 `DsChHack` 的仓库写入权限已核验（2026-10-11）。源码、运行说明与支撑材料位于 `main` 分支；包含预构建前端的“路序-城市配送调度-完整项目.zip”通过 [Release v2.0.0](https://github.com/amdilo2025/AI_Architecture_Competition/releases/tag/v2.0.0) 的 Assets 下载，不放在 `main` 文件列表中。Release 下载需要仓库访问权限。
 
-团队和成员资料已补充，参赛者仍需核对履历与最终分工，并通过赛事指定渠道提交上述仓库链接；上传到 GitHub 不等于完成赛事渠道提交。当前未核验正式提交回执。
 
-必须交付的是可访问的私有仓库链接，ZIP 只是整理和转移材料的便利方式。提交前请核对团队信息，保持仓库私有及 `DsChHack` 评审权限，并完成赛事指定渠道提交。个人简历、成员履历和夸克网盘演示视频链接已提供；当前没有公网运行的 Demo 应用。
-
-提供源码仓库时，保留 `requirements.lock.txt`、`frontend/package-lock.json`、安装脚本、文档和验收记录；排除 `.venv/`、`node_modules/`、`.env`、运行数据库与私人业务数据。Git 默认不提交前端构建产物，安装脚本会重新生成；ZIP 则包含预构建前端。截图 [工作台](artifacts/workbench-v2.png)、[登录页](artifacts/login-v2.png)、[移动界面](artifacts/mobile-v2.png) 是较早版本的开发记录，当前全国地图和可调栏宽以实际运行界面为准。
 
 ### 数据、开源与人工环节说明
 
